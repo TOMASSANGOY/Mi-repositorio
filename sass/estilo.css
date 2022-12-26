@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 991px) {
+  ul {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .imagen {
+    margin-bottom: 50px;
+  }
+  header {
+    height: 56px;
+  }
+  .imagen2 {
+    margin-bottom: 30px;
+  }
+  .cv {
+    margin-bottom: 50px;
+  }
+}
+/* NAVBAR */
+header {
+  position: relative;
+}
+header .barra .bar ul li {
+  padding: 5px 30px;
+}
+header .barra .bar ul li a {
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+header .barra .bar ul li a:hover {
+  background-color: #0B9ABD;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+
+/* HOME */
+.Home {
+  background-color: #BDBEC1;
+  border-bottom: 2px solid #000;
+}
+.Home .home {
+  margin: auto;
+  align-items: center;
+  min-height: 100vh;
+}
+.Home .home .presentacion {
+  padding-bottom: 50px;
+}
+.Home .home .presentacion p {
+  margin: 10px 0 50px 0;
+  font-size: 20px;
+  padding: 0 40px;
+}
+.Home .home .presentacion h1 {
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.Home .home .presentacion h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.Home .home .presentacion .botones .m-btn {
+  display: inline-block;
+  border: 2px solid transparent;
+  line-height: inherit;
+  width: auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  transition: ease-in-out all 0.55s;
+}
+.Home .home .presentacion .botones .m-btn-theme {
+  background: #0B9ABD;
+  color: #000;
+  border-color: #045373;
+  font-weight: 900;
+}
+.Home .home .presentacion .botones .m-btn-t-theme {
+  background: #fff;
+  color: #000;
+  border-color: #357E8E;
+  font-weight: 900;
+}
+.Home .home .presentacion .botones .m-btn-t-theme:hover {
+  background-color: #0B9ABD;
+  color: #fff;
+  border-color: #045373;
+  transition: 1s;
+}
+.Home .home .presentacion .botones .m-btn-theme:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* ABOUT ME */
+.Aboutme {
+  min-height: 100vh;
+  border-bottom: 2px solid #000;
+}
+.Aboutme .about .titulo {
+  padding-top: 60px;
+}
+.Aboutme .about .titulo .title {
+  padding: 18px;
+}
+.Aboutme .about .titulo .title h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.Aboutme .about .titulo .title p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.Aboutme .foto-listas {
+  margin-top: 2%;
+}
+.Aboutme .foto-listas .imagen2 img {
+  border-radius: 20px;
+}
+.Aboutme .foto-listas .info {
+  padding: 0 4%;
+}
+.Aboutme .foto-listas .info .inf-listas {
+  padding-top: 30px;
+}
+.Aboutme .foto-listas .info .inf-listas .media {
+  margin-bottom: 30px;
+}
+.Aboutme .foto-listas .info .inf-listas .media label {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #045373;
+  width: 150px;
+}
+.Aboutme .foto-listas .info .inf-listas .media p {
+  padding-top: 5px;
+}
+.Aboutme .foto-listas .info .cv a {
+  border: 3px solid #045373;
+  font-weight: 800;
+  border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+  background-color: #0B9ABD;
+}
+.Aboutme .foto-listas .info .cv a:hover {
+  border: 3px solid #045373;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+
+/* SKILLS */
+.Skills {
+  min-height: 100vh;
+}
+.Skills .title-skills {
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+.Skills .title-skills h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.Skills .title-skills p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.Skills .lenguajes {
+  padding-top: 5%;
+  margin: auto;
+}
+.Skills .lenguajes .skill-It .skill-bar {
+  position: relative;
+  background: rgb(211, 190, 190);
+  margin-bottom: 50px;
+}
+.Skills .lenguajes .skill-It .skill-bar .skill-bar-in {
+  transition: ease all 0.55s;
+  height: 10px;
+  position: relative;
+  background-color: #0B9ABD;
+}
+.Skills .lenguajes .skill-It .skill-bar .skill-bar-in span {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  font-size: 14px;
+}
+.Skills .lenguajes .iconos {
+  padding-top: 90px;
+}
+.Skills .lenguajes .iconos img {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+}
+.Skills .lenguajes .iconos .css {
+  width: 110px;
+  height: 130px;
+}/*# sourceMappingURL=estilo.css.map */
