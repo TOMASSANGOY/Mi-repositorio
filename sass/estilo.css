@@ -13,6 +13,9 @@ a {
   ul {
     margin-left: 100px;
   }
+  .iconos {
+    padding-top: 150px;
+  }
 }
 @media (max-width: 991px) {
   .imagen {
@@ -132,6 +135,9 @@ header .barra .bar ul li a:hover {
 .Aboutme .foto-listas {
   margin-top: 2%;
 }
+.Aboutme .foto-listas .imagen2 {
+  padding-top: 50px;
+}
 .Aboutme .foto-listas .imagen2 img {
   border-radius: 20px;
 }
@@ -171,7 +177,9 @@ header .barra .bar ul li a:hover {
 
 /* SKILLS */
 .Skills {
+  background-color: #BDBEC1;
   min-height: 100vh;
+  border-bottom: #000 2px solid;
 }
 .Skills .title-skills {
   padding-top: 70px;
@@ -191,7 +199,7 @@ header .barra .bar ul li a:hover {
 }
 .Skills .lenguajes .skill-It .skill-bar {
   position: relative;
-  background: rgb(211, 190, 190);
+  background: #fff;
   margin-bottom: 50px;
 }
 .Skills .lenguajes .skill-It .skill-bar .skill-bar-in {
@@ -206,9 +214,6 @@ header .barra .bar ul li a:hover {
   top: -30px;
   font-size: 14px;
 }
-.Skills .lenguajes .iconos {
-  padding-top: 90px;
-}
 .Skills .lenguajes .iconos img {
   width: 130px;
   height: 130px;
@@ -217,4 +222,55 @@ header .barra .bar ul li a:hover {
 .Skills .lenguajes .iconos .css {
   width: 110px;
   height: 130px;
+}
+
+/* CONTACT */
+.Contact {
+  min-height: 100vh;
+  padding-top: 78px;
+}
+.Contact .contact .titulo2 h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.Contact .contact .formYdatos {
+  padding: 9% 0;
+}
+.Contact .contact .formYdatos .container-form .contact-form {
+  border: #045373 solid 3px;
+  padding: 20px 70px;
+}
+.Contact .contact .formYdatos .container-form .contact-form h4 {
+  margin-bottom: 50px;
+}
+.Contact .contact .formYdatos .container-form .contact-form .formulario .form-group input {
+  height: 60px;
+  margin-bottom: 50px;
+}
+.Contact .contact .formYdatos .container-form .contact-form .formulario .boton {
+  margin-top: 20px;
+}
+.Contact .contact .formYdatos .container-form .contact-form .formulario .boton button {
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid #0B9ABD;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+.Contact .contact .formYdatos .container-form .contact-form .formulario .boton button:hover {
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid #0B9ABD;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #045373;
+  color: #FFF;
+}
+.Contact .contact .formYdatos .datos .contact-info {
+  margin: 65px 0;
+}
+.Contact .contact .formYdatos .datos .contact-info h6 {
+  border-bottom: #0B9ABD solid 4px;
+  padding-bottom: 17px;
 }/*# sourceMappingURL=estilo.css.map */

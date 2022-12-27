@@ -13,6 +13,9 @@ a{
     ul{
         margin-left: 100px;
     }   
+    .iconos {
+        padding-top: 150px;
+    }
 }
 
 
@@ -147,6 +150,7 @@ header{
     .foto-listas{
         margin-top: 2%;
         .imagen2 {
+            padding-top: 50px;
             img {
                 border-radius: 20px;
             }
@@ -191,7 +195,9 @@ header{
 
 /* SKILLS */
 .Skills {
+    background-color: #BDBEC1;
     min-height: 100vh;
+    border-bottom: #000 2px solid;
     .title-skills{
         padding-top: 70px;
         margin-bottom: 50px;
@@ -210,7 +216,7 @@ header{
         .skill-It {
             .skill-bar {
                 position: relative;
-                background: rgb(211, 190, 190);
+                background: #fff;
                 margin-bottom: 50px;
                 .skill-bar-in {
                     transition: ease all 0.55s;
@@ -227,7 +233,7 @@ header{
             }
         }  
         .iconos {
-            padding-top: 90px;
+            
             img{
                 width: 130px;
                 height: 130px;
@@ -238,5 +244,69 @@ header{
                 height: 130px;
             }
         } 
+    }
+}
+
+/* CONTACT */
+
+.Contact{
+    min-height: 100vh;
+    padding-top: 78px;
+    .contact {
+        .titulo2{
+            h3{
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+        .formYdatos{
+            padding: 9% 0;
+            .container-form{
+                .contact-form{
+                    border: #045373 solid 3px;
+                    padding: 20px 70px;
+                    h4{
+                        margin-bottom: 50px;
+                    }
+                    .formulario{
+                        .form-group{
+                            input{
+                                height: 60px;
+                                margin-bottom: 50px;
+                            }
+                        }
+                        .boton{
+                            margin-top: 20px;
+                            button{
+                                padding: 10px;
+                                border-radius: 50px;
+                                border: 2px solid #0B9ABD;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #000;
+                            }
+                            button:hover{
+                                padding: 10px;
+                                border-radius: 50px;
+                                border: 2px solid #0B9ABD;
+                                font-size: 18px;
+                                font-weight: 700;
+                                background-color: #045373;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+            }    
+            .datos{
+                .contact-info{
+                    margin: 65px 0;
+                    h6{
+                        border-bottom: #0B9ABD solid 4px;
+                        padding-bottom: 17px;
+                    }
+                }
+            }
+        }
     }
 }
