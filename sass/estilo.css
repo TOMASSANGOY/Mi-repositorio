@@ -10,11 +10,8 @@ a {
 
 /* MEDIA QUERIES */
 @media (min-width: 991px) {
-  ul {
+  .bar ul {
     margin-left: 100px;
-  }
-  .iconos {
-    padding-top: 150px;
   }
 }
 @media (max-width: 991px) {
@@ -133,10 +130,7 @@ header .barra .bar ul li a:hover {
   font-weight: 500;
 }
 .Aboutme .foto-listas {
-  margin-top: 2%;
-}
-.Aboutme .foto-listas .imagen2 {
-  padding-top: 50px;
+  align-items: center;
 }
 .Aboutme .foto-listas .imagen2 img {
   border-radius: 20px;
@@ -194,13 +188,14 @@ header .barra .bar ul li a:hover {
   font-weight: 500;
 }
 .Skills .lenguajes {
-  padding-top: 5%;
+  padding-top: 3%;
   margin: auto;
+  align-items: center;
 }
 .Skills .lenguajes .skill-It .skill-bar {
   position: relative;
   background: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .Skills .lenguajes .skill-It .skill-bar .skill-bar-in {
   transition: ease all 0.55s;
@@ -226,7 +221,7 @@ header .barra .bar ul li a:hover {
 
 /* CONTACT */
 .Contact {
-  min-height: 100vh;
+  min-height: 78vh;
   padding-top: 78px;
 }
 .Contact .contact .titulo2 h3 {
@@ -234,7 +229,8 @@ header .barra .bar ul li a:hover {
   font-weight: 700;
 }
 .Contact .contact .formYdatos {
-  padding: 9% 0;
+  align-items: center;
+  padding: 4% 0 0 0;
 }
 .Contact .contact .formYdatos .container-form .contact-form {
   border: #045373 solid 3px;
@@ -246,6 +242,9 @@ header .barra .bar ul li a:hover {
 .Contact .contact .formYdatos .container-form .contact-form .formulario .form-group input {
   height: 60px;
   margin-bottom: 50px;
+}
+.Contact .contact .formYdatos .container-form .contact-form .formulario .form-group textarea {
+  max-height: 150px;
 }
 .Contact .contact .formYdatos .container-form .contact-form .formulario .boton {
   margin-top: 20px;
@@ -266,6 +265,7 @@ header .barra .bar ul li a:hover {
   font-weight: 700;
   background-color: #045373;
   color: #FFF;
+  transition: 1s all;
 }
 .Contact .contact .formYdatos .datos .contact-info {
   margin: 65px 0;
@@ -273,4 +273,6 @@ header .barra .bar ul li a:hover {
 .Contact .contact .formYdatos .datos .contact-info h6 {
   border-bottom: #0B9ABD solid 4px;
   padding-bottom: 17px;
-}/*# sourceMappingURL=estilo.css.map */
+}
+
+/* FOOTER *//*# sourceMappingURL=estilo.css.map */

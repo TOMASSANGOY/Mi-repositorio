@@ -10,12 +10,11 @@ a{
 
 /* MEDIA QUERIES */
 @media (min-width: 991px) {
-    ul{
-        margin-left: 100px;
-    }   
-    .iconos {
-        padding-top: 150px;
-    }
+    .bar{
+        ul{
+            margin-left: 100px;
+        }
+    }       
 }
 
 
@@ -148,9 +147,8 @@ header{
         }
     }
     .foto-listas{
-        margin-top: 2%;
+        align-items: center;
         .imagen2 {
-            padding-top: 50px;
             img {
                 border-radius: 20px;
             }
@@ -211,13 +209,14 @@ header{
         }
     }
     .lenguajes {
-        padding-top: 5%;
+        padding-top: 3%;
         margin: auto;
+        align-items: center;
         .skill-It {
             .skill-bar {
                 position: relative;
                 background: #fff;
-                margin-bottom: 50px;
+                margin-bottom: 30px;
                 .skill-bar-in {
                     transition: ease all 0.55s;
                     height: 10px;
@@ -233,7 +232,6 @@ header{
             }
         }  
         .iconos {
-            
             img{
                 width: 130px;
                 height: 130px;
@@ -250,7 +248,7 @@ header{
 /* CONTACT */
 
 .Contact{
-    min-height: 100vh;
+    min-height: 78vh;
     padding-top: 78px;
     .contact {
         .titulo2{
@@ -260,7 +258,8 @@ header{
             }
         }
         .formYdatos{
-            padding: 9% 0;
+            align-items: center;
+            padding: 4% 0 0 0;
             .container-form{
                 .contact-form{
                     border: #045373 solid 3px;
@@ -273,6 +272,9 @@ header{
                             input{
                                 height: 60px;
                                 margin-bottom: 50px;
+                            }
+                            textarea{
+                                max-height: 150px;
                             }
                         }
                         .boton{
@@ -293,6 +295,7 @@ header{
                                 font-weight: 700;
                                 background-color: #045373;
                                 color: #FFF;
+                                transition: 1s all;
                             }
                         }
                     }
@@ -310,3 +313,5 @@ header{
         }
     }
 }
+
+/* FOOTER */
