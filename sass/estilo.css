@@ -219,8 +219,72 @@ header .barra .bar ul li a:hover {
   height: 130px;
 }
 
+/* PROJECTS */
+.proyects {
+  min-height: 100vh;
+  padding: 78px 0;
+  border-bottom: #000 2px solid;
+}
+.proyects h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container-proyects {
+  padding-top: 100px;
+}
+.container-proyects .card {
+  width: 400px;
+  height: 250px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 20px black;
+  align-items: center;
+}
+.container-proyects .card img {
+  width: 380px;
+  height: 200px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.container-proyects .card .intro {
+  height: 40px;
+  width: 95%;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: rgba(27, 27, 27, 0.5);
+  color: #000000;
+  transition: 0.5s;
+}
+.container-proyects .card .intro h1 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.container-proyects .card .intro p {
+  font-size: 20px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+.container-proyects .card:hover {
+  cursor: pointer;
+}
+.container-proyects .card:hover .intro {
+  height: 150px;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.container-proyects .card:hover p {
+  opacity: 1;
+  visibility: visible;
+  font-weight: 900;
+}
+.container-proyects .card:hover img {
+  transform: scale(1.05) rotate(-2deg);
+}
+
 /* CONTACT */
 .Contact {
+  background-color: #BDBEC1;
   min-height: 78vh;
   padding-top: 78px;
 }

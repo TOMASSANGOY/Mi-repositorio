@@ -245,9 +245,72 @@ header{
     }
 }
 
+/* PROJECTS */
+.proyects{
+    min-height: 100vh;
+    padding: 78px 0;
+    border-bottom: #000 2px solid;
+    h3{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.container-proyects{
+    padding-top: 100px;
+    .card{
+        width: 400px;
+        height: 250px;
+        margin: 20px auto;
+        box-shadow: 5px 5px 20px black;
+        align-items: center;
+        img{
+            width: 380px;
+            height: 200px;
+            border-radius: 3px;
+            transition: .5s;
+        }
+        .intro{
+            height: 40px;
+            width: 95%;
+            box-sizing: border-box;
+            position: absolute;
+            background-color: rgb(27, 27, 27, .5);
+            color: #000000;
+            transition: .5s;
+            h1{
+                font-size: 30px;
+                margin-left: 10px;
+            }
+            p{
+                font-size: 20px;
+                margin: 20px;
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+    }
+    .card:hover{
+        cursor: pointer;
+    }
+    .card:hover .intro{
+        height: 150px;
+        bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .card:hover p {
+        opacity: 1;
+        visibility: visible;
+        font-weight: 900;
+    }
+    .card:hover img{
+        transform: scale(1.05) rotate(-2deg);
+    }
+}
 /* CONTACT */
 
 .Contact{
+    background-color: #BDBEC1;
     min-height: 78vh;
     padding-top: 78px;
     .contact {

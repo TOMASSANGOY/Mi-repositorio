@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="keywords" content="portafolio, tomas sangoy, web developer, desarrollador web, portafolio tomas sangoy">
+    <meta name="description" content="Portafolio web de Tomás Franco Sangoy - Web developer">
     <!--BOOTSTRAP LINK-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- SCSS -->
@@ -33,7 +36,7 @@
                         <a class="nav-link" href="#Skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyects</a>
+                        <a class="nav-link" href="#Proyects">Proyects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Contact">Contact</a>
@@ -106,7 +109,7 @@
                             </div>
                             <div class="media">
                                 <label>Phone</label>
-                                <p>3512371693</p>
+                                <p>+54 3512371693</p>
                             </div>
                             <div class="media">
                                 <label>Instagram</label>
@@ -150,14 +153,14 @@
                         </div>
                         <H6 class="dark-color">CSS</H6>
                         <div class="skill-bar">
-                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                <span>80%</span>
+                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span>90%</span>
                             </div>
                         </div>
                         <H6 class="dark-color">BOOTSTRAP</H6>
                         <div class="skill-bar">
-                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                <span>70%</span>
+                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span>80%</span>
                             </div>
                         </div>
                         <H6 class="dark-color">SASS</H6>
@@ -178,18 +181,18 @@
                                 <span>65%</span>
                             </div>
                         </div>
-                        <!-- <H6 class="dark-color">WORDPRESS</H6>
+                        <H6 class="dark-color">WORDPRESS</H6>
                         <div class="skill-bar">
-                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-                                <span>20%</span>
+                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span>80%</span>
                             </div>
-                        </div> -->
-                        <!-- <H6 class="dark-color">JAVASCRIPT</H6>
+                        </div>
+                        <H6 class="dark-color">JAVASCRIPT</H6>
                         <div class="skill-bar">
-                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 16%;">
-                                <span>16%</span>
+                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                                <span>30%</span>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- <H6 class="dark-color">REACT</H6>
                         <div class="skill-bar">
                             <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 16%;">
@@ -207,6 +210,8 @@
                             <img src="./imagenes/logo-bootstrap.png" alt="Bootstrap">
                             <img src="./imagenes/logo-b6e1ef6e.svg" alt="Sass">
                             <img src="./imagenes/logo-php.png" alt="PHP">
+                            <img src="./imagenes/logo-wordpress.png" alt="WORDPRESS">
+                            <img src="./imagenes/logo-javascript.png" alt="JAVASCRIPT">
                         </div>
                     </div>
                 </div>
@@ -214,9 +219,36 @@
         </div>
     </section>
 
-    <!-- <section id="Proyects">
-    
-    </section> -->
+    <section id="Proyects" class="proyects">
+        <div class="titulo2 text-center">
+            <h3>
+                MY PROYECTS
+            </h3>
+        </div>
+        <div class="container-fluid row container-proyects">
+            <div class="card col-lg-4">
+                <a href="https://tomassangoy.github.io/Encantos-joyas.github.io/"><img src="./imagenes/logo.png" alt="Logo encantos joyas">
+                <div class="intro">
+                    <h1>Encantos Joyas</h1>
+                    <p>Sitio web creado para la venta de joyas, usando HTML Y CSS con diferentes librerias y frameworks.</p>
+                </div></a>
+            </div>
+            <div class="card col-lg-4">
+                <a href="https://dev-impresiones-3d.pantheonsite.io/"><img src="./imagenes/LOGO-impresion3D.png" alt="Logo encantos joyas">
+                <div class="intro">
+                    <h1>Impresiones3D</h1>
+                    <p>Sitio web creado para la venta de impresiones 3D, usando wordpress.</p>
+                </div></a>
+            </div>
+            <div class="card col-lg-4">
+                <a href="https://tomassangoy.github.io/Encantos-joyas.github.io/"><img src="./imagenes/logo.png" alt="Logo encantos joyas">
+                <div class="intro">
+                    <h1>Quiz</h1>
+                    <p>Sitio web creado para practicar Javascript, creando un quiz con puntaje.</p>
+                </div></a>
+            </div>
+        </div>
+    </section>
 
     <section id="Contact" class="Contact">
         <div class="container-fluid contact">
@@ -302,7 +334,7 @@
     </section>
 </main>
 <footer class="text-center text-lg-start" style="background-color: #BDBEC1;">
-    <div class="container d-flex justify-content-center py-5">
+    <div class="container d-flex justify-content-center py-3">
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #fff;">
             <a href="https://api.whatsapp.com/send/?phone=543512371693"><i class="fa-brands fa-whatsapp"></i></a>
         </button>
