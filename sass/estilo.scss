@@ -254,10 +254,16 @@ header{
         font-size: 40px;
         font-weight: 700;
     }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
 }
 
 .container-proyects{
     padding-top: 100px;
+    margin: auto;
     .card{
         width: 400px;
         height: 250px;
@@ -378,3 +384,6 @@ header{
 }
 
 /* FOOTER */
+footer{
+    background-color: #030303;
+}

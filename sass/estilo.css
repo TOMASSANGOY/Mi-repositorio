@@ -229,9 +229,15 @@ header .barra .bar ul li a:hover {
   font-size: 40px;
   font-weight: 700;
 }
+.proyects p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
 
 .container-proyects {
   padding-top: 100px;
+  margin: auto;
 }
 .container-proyects .card {
   width: 400px;
@@ -339,4 +345,7 @@ header .barra .bar ul li a:hover {
   padding-bottom: 17px;
 }
 
-/* FOOTER *//*# sourceMappingURL=estilo.css.map */
+/* FOOTER */
+footer {
+  background-color: #030303;
+}/*# sourceMappingURL=estilo.css.map */
